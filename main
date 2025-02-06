@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TriState Distributions - Wholesale Experts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>TriState Distributions</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Your Trusted Wholesale Partner</h2>
+        <p>Supplying premium products with seamless distribution across marketplaces.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>TriState Distributions specializes in sourcing and distributing high-quality wholesale products. We partner with leading brands and deliver seamless logistics for resale businesses.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>We supply a wide range of branded wholesale products. Contact us for details.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TriState Distributions | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -2,26 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: #f4f4f4;
 }
 
+/* Header */
 header {
-    background: #004080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
     color: white;
     padding: 20px;
 }
 
+header .logo img {
+    height: 60px;
+}
+
 nav ul {
     list-style: none;
-    padding: 0;
-    background: #333;
-    overflow: hidden;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
-    padding: 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -30,58 +34,51 @@ nav ul li a {
     font-weight: bold;
 }
 
-section {
-    padding: 40px;
-    background: white;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('businessprofessional.webp') no-repeat center center/cover;
+    color: white;
 }
 
-h1, h2 {
-    color: #004080;
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
 }
 
-.brands-container {
+.hero p {
+    font-size: 18px;
+}
+
+/* Partners Section */
+.partner-logos {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.brand img {
-    width: 180px;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+.partner-logos img {
+    width: 150px;
 }
 
-form {
+/* Contact Section */
+#contact form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     width: 50%;
     margin: auto;
 }
 
-input, textarea {
+#contact form input, textarea, button {
+    margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
 button {
-    background: #004080;
+    background-color: navy;
     color: white;
-    padding: 10px;
+    font-size: 18px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-}
-
-footer {
-    background: #222;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
 }

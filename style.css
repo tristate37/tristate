@@ -1,93 +1,87 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f9f9f9;
+    text-align: center;
+    background-color: #f4f4f4;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+header {
+    background: #004080;
+    color: white;
     padding: 20px;
 }
 
-/* Header */
-header {
-    background-color: #004080;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header nav ul {
+nav ul {
     list-style: none;
     padding: 0;
+    background: #333;
+    overflow: hidden;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin: 0 15px;
+    padding: 15px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Hero Section */
-.hero {
-    background: url('https://source.unsplash.com/1600x900/?business,warehouse') no-repeat center center/cover;
-    text-align: center;
-    padding: 100px 0;
-    color: white;
-    font-size: 24px;
-}
-
-/* Sections */
 section {
-    padding: 40px 0;
-    text-align: center;
+    padding: 40px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
-h2 {
+h1, h2 {
     color: #004080;
 }
 
-/* Contact Form */
-.contact form {
+.brands-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand img {
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    gap: 10px;
+    width: 50%;
     margin: auto;
 }
 
-.contact input, .contact textarea {
-    margin: 10px 0;
+input, textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.contact button {
-    background-color: #004080;
+button {
+    background: #004080;
     color: white;
     padding: 10px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
 }
 
-.contact button:hover {
-    background-color: #003366;
-}
-
-/* Footer */
 footer {
-    background-color: #004080;
+    background: #222;
     color: white;
-    text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+    margin-top: 20px;
 }

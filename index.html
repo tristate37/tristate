@@ -4,56 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TriState Distributions</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>TriState Distributions</h1>
-        <p>Your Trusted Wholesale Partner</p>
+        <div class="logo">
+            <img src="logo.png" alt="TriState Distributions Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#partners">Our Partners</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#brands">Brands We've Worked With</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>TriState Distributions specializes in sourcing and distributing high-quality wholesale products. 
-        We partner with leading brands and provide seamless logistics for resale businesses.</p>
+    <!-- Hero Section with Rotating Images -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="businessprofessional.webp" alt="Professional Business">
+            <img src="warehouse.webp" alt="Warehouse Storage">
+        </div>
+        <h1>Trusted Wholesale Partner</h1>
+        <p>Reliable sourcing & seamless distribution for brands nationwide.</p>
     </section>
 
-    <section id="brands">
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>TriState Distributions specializes in **sourcing and distributing high-quality wholesale products.** We partner with leading brands and deliver seamless logistics for resale businesses.</p>
+    </section>
+
+    <!-- Our Partners Section -->
+    <section id="partners">
         <h2>Brands We've Worked With</h2>
-        <div class="brands-container">
-            <div class="brand">
-                <img src="saltworks.jpg" alt="SaltWorks">
-            </div>
-            <div class="brand">
-                <img src="sodastream.jpg" alt="SodaStream">
-            </div>
-            <div class="brand">
-                <img src="opticsplanet.jpg" alt="Optics Planet">
-            </div>
+        <div class="partner-logos">
+            <img src="saltworks.jpg" alt="SaltWorks">
+            <img src="sodastream.jpg" alt="Sodastream">
+            <img src="opticsplanet.png" alt="Optics Planet">
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>If you're a supplier looking to collaborate, reach out to us.</p>
         <form>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
             <button type="submit">Send Inquiry</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2025 TriState Distributions | All Rights Reserved</p>
+        <p>© 2025 TriState Distributions | All Rights Reserved</p>
     </footer>
 </body>
 </html>
